@@ -1,0 +1,290 @@
+body{
+    background: url('Images/Fondo.png')no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    }
+    
+    div.contenedor
+    {
+        width: 420px;
+        height: 460px;
+        padding: 50px;
+        padding-left: 200px;
+        float: left;
+    }
+
+        
+    div.contenedorcanvas
+    {
+        width: 205px;
+        height: 430px;
+        float: left;
+        background-color: black;
+        margin-top: 20%;
+        border-top: 5px solid #3ACFD5;
+        border-bottom: 5px solid #3a4ed5;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box; 
+        background-position: 0 0, 100% 0;
+      background-repeat: no-repeat;
+      -webkit-background-size: 5px 100%;
+      -moz-background-size: 5px 100%;
+      background-size: 5px 100%;
+      background-image: -webkit-linear-gradient(top, #3acfd5 0%, #3a4ed5 100%), -webkit-linear-gradient(top, #3acfd5 0%, #3a4ed5 100%);
+      background-image: -moz-linear-gradient(top, #3acfd5 0%, #3a4ed5 100%), -moz-linear-gradient(top, #3acfd5 0%, #3a4ed5 100%);
+      background-image: -o-linear-gradient(top, #3acfd5 0%, #3a4ed5 100%), -o-linear-gradient(top, #3acfd5 0%, #3a4ed5 100%);
+      background-image: linear-gradient(to bottom, #3acfd5 0%, #3a4ed5 100%), linear-gradient(to bottom, #3acfd5 0%, #3a4ed5 100%);
+    }
+    
+    div.contenedorderecha
+    {
+        width: 200px;
+        height: 300px;
+        float: right;
+        font-size: 16px;      
+        
+        font-family: "Trebuchet Ms";
+        font-weight: bold;
+        margin-top: 20%;
+        color: white;
+
+    }
+    
+    div.contenedorderecha .figura
+    {    
+        width: 166px;
+        height: 66px;
+        margin-left: 12px;
+        background-color: black;
+        border-top: 3px solid #a80077;
+        border-bottom: 3px solid #db36a4;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box; 
+        background-position: 0 0, 100% 0;
+        background-repeat: no-repeat;
+        -webkit-background-size: 3px 100%;
+        -moz-background-size: 3px 100%;
+        background-size: 3px 100%;
+        background-image: -webkit-linear-gradient(top, #a80077 0%, #db36a4 100%), -webkit-linear-gradient(top, #a80077 0%, #db36a4 100%);
+        background-image: -moz-linear-gradient(top, #a80077 0%, #db36a4 100%), -moz-linear-gradient(top, #a80077 0%, #db36a4 100%);
+        background-image: -o-linear-gradient(top, #a80077 0%, #db36a4 100%), -o-linear-gradient(top, #a80077 0%, #db36a4 100%);
+        background-image: linear-gradient(to bottom, #a80077 0%, #db36a4 100%), linear-gradient(to bottom, #a80077 0%, #db36a4 100%);
+        
+    }
+    
+    div.contenedorderecha .figura .canvas
+    {
+        margin-top: 10px;
+    }
+    
+    div.contenedorderecha .score
+    {
+        width: 166px;
+        height: 46px;
+        margin-left: 12px;
+        margin-top: 8px;
+        background-color: black;
+        border-top: 3px solid #a80077;
+        border-bottom: 3px solid #db36a4;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box; 
+        background-position: 0 0, 100% 0;
+        background-repeat: no-repeat;
+        -webkit-background-size: 3px 100%;
+        -moz-background-size: 3px 100%;
+        background-size: 3px 100%;
+        background-image: -webkit-linear-gradient(top, #a80077 0%, #db36a4 100%), -webkit-linear-gradient(top, #a80077 0%, #db36a4 100%);
+        background-image: -moz-linear-gradient(top, #a80077 0%, #db36a4 100%), -moz-linear-gradient(top, #a80077 0%, #db36a4 100%);
+        background-image: -o-linear-gradient(top, #a80077 0%, #db36a4 100%), -o-linear-gradient(top, #a80077 0%, #db36a4 100%);
+        background-image: linear-gradient(to bottom, #a80077 0%, #db36a4 100%), linear-gradient(to bottom, #a80077 0%, #db36a4 100%);
+        
+    }
+    
+    div.contenedorderecha .score .izq
+    {
+        float: left;
+        width: 75px;
+        height: 40px;    
+        margin-left: 5px;
+        line-height: 37px;
+    }
+    
+    div.contenedorderecha .score .der
+    {
+        float: left;
+        width: 75px;
+        height: 40px;
+        text-align: right;
+        margin-right: 5px;
+        line-height: 37px;
+    }
+    
+    div.contenedorderecha .lines
+    {
+        width: 166px;
+        height: 46px;
+        margin-left: 12px;
+        background-color: black;
+        border-bottom: 3px solid #db36a4;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box; 
+        background-position: 0 0, 100% 0;
+        background-repeat: no-repeat;
+        -webkit-background-size: 3px 100%;
+        -moz-background-size: 3px 100%;
+        background-size: 3px 100%;
+        background-image: -webkit-linear-gradient(top, #db36a4 0%, #a80077 100%), -webkit-linear-gradient(top, #db36a4 0%, #a80077 100%);
+        background-image: -moz-linear-gradient(top, #db36a4 0%, #a80077 100%), -moz-linear-gradient(top, #db36a4 0%, #a80077 100%);
+        background-image: -o-linear-gradient(top, #db36a4 0%, #a80077 100%), -o-linear-gradient(top, #db36a4 0%, #a80077 100%);
+        background-image: linear-gradient(to bottom, #db36a4 0%, #a80077 100%), linear-gradient(to bottom, #db36a4 0%, #a80077 100%);
+     
+    }
+    
+    div.contenedorderecha .lines .izq
+    {
+        float: left;
+        width: 75px;
+        height: 40px;
+        font-weight: bold;
+        margin-left: 5px;
+        line-height: 37px;
+    }
+    
+    div.contenedorderecha .lines .der
+    {
+        float: left;
+        width: 75px;
+        height: 40px; 
+        text-align: right;
+        margin-right: 5px;
+        line-height: 37px;
+    }
+    
+    div.contenedorderecha .level
+    {
+        width: 166px;
+        height: 46px;
+        margin-left: 12px;
+        border-bottom: 3px solid #a80077;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box; 
+        background-position: 0 0, 100% 0;
+        background-repeat: no-repeat;
+        -webkit-background-size: 3px 100%;
+        -moz-background-size: 3px 100%;
+        background-size: 3px 100%;
+        background-image: -webkit-linear-gradient(top, #a80077 0%, #db36a4 100%), -webkit-linear-gradient(top, #a80077 0%, #db36a4 100%);
+        background-image: -moz-linear-gradient(top, #a80077 0%, #db36a4 100%), -moz-linear-gradient(top, #a80077 0%, #db36a4 100%);
+        background-image: -o-linear-gradient(top, #a80077 0%, #db36a4 100%), -o-linear-gradient(top, #a80077 0%, #db36a4 100%);
+        background-image: linear-gradient(to bottom, #a80077 0%, #db36a4 100%), linear-gradient(to bottom, #a80077 0%, #db36a4 100%);
+        background-color: black;
+    }
+    
+    div.contenedorderecha .level .izq
+    {
+        float: left;
+        width: 75px;
+        height: 40px; 
+        font-weight: bold;
+        margin-left: 5px;
+        line-height: 37px;
+    }
+    
+    div.contenedorderecha .level .der
+    {
+        float: left;
+        width: 75px;
+        height: 40px;
+        text-align: right;
+        margin-right: 5px;
+        line-height: 37px;
+    }
+    
+    div.contenedorderecha .sonido
+    {
+        width: 166px;
+        height: 46px;
+        background-color: black;
+        margin-left: 12px;
+        margin-top: 8px;
+        border-top: 3px solid #a80077;
+        border-bottom: 3px solid #db36a4;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box; 
+        background-position: 0 0, 100% 0;
+        background-repeat: no-repeat;
+        -webkit-background-size: 3px 100%;
+        -moz-background-size: 3px 100%;
+        background-size: 3px 100%;
+        background-image: -webkit-linear-gradient(top, #a80077 0%, #db36a4 100%), -webkit-linear-gradient(top, #a80077 0%, #db36a4 100%);
+        background-image: -moz-linear-gradient(top, #a80077 0%, #db36a4 100%), -moz-linear-gradient(top, #a80077 0%, #db36a4 100%);
+        background-image: -o-linear-gradient(top, #a80077 0%, #db36a4 100%), -o-linear-gradient(top, #a80077 0%, #db36a4 100%);
+        background-image: linear-gradient(to bottom, #a80077 0%, #db36a4 100%), linear-gradient(to bottom, #a80077 0%, #db36a4 100%);
+        
+    }
+    
+    div.contenedorderecha .sonido .izq
+    {
+        float: left;
+        width: 35px;
+        height: 35px;    
+        margin-left: 5px;    
+        cursor: pointer    
+    }
+    
+    div.contenedorderecha .sonido .izq img
+    {
+        width: 35px;
+        height: 35px;
+    }
+    
+    div.contenedorderecha .sonido .der
+    {
+        float: left;
+        width: 75px;
+        height: 40px;    
+        margin-right: 5px;
+        
+    }
+    
+    div.contenedorderecha .jugar
+    {
+        width: 166px;
+        height: 46px;
+        background-color: black;
+        margin-left: 12px;
+        margin-top: 8px;
+        text-align: center;
+        line-height: 37px;    
+        border-top: 3px solid #a80077;
+        border-bottom: 3px solid #db36a4;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box; 
+        background-position: 0 0, 100% 0;
+        background-repeat: no-repeat;
+        -webkit-background-size: 3px 100%;
+        -moz-background-size: 3px 100%;
+        background-size: 3px 100%;
+        background-image: -webkit-linear-gradient(top, #a80077 0%, #db36a4 100%), -webkit-linear-gradient(top, #a80077 0%, #db36a4 100%);
+        background-image: -moz-linear-gradient(top, #a80077 0%, #db36a4 100%), -moz-linear-gradient(top, #a80077 0%, #db36a4 100%);
+        background-image: -o-linear-gradient(top, #a80077 0%, #db36a4 100%), -o-linear-gradient(top, #a80077 0%, #db36a4 100%);
+        background-image: linear-gradient(to bottom, #a80077 0%, #db36a4 100%), linear-gradient(to bottom, #a80077 0%, #db36a4 100%);
+        
+    }
+    
+    div.contenedorderecha .jugar a
+    {
+        cursor: pointer;
+    }
+
+       
+   

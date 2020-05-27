@@ -1,0 +1,281 @@
+body{
+    background: url(img/Fondo1.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+ 
+.centrado{
+margin:10px auto;
+display:block;
+margin-left: auto;
+margin-right: 420px;
+width: 450px;
+height: 210px;
+
+}
+
+.logo{
+
+    width: 350px;
+    height: 90px;
+    float: right;
+}  
+
+.instru{
+   padding-left: 120px;
+    text-align: center;
+   
+}
+
+.myButton {
+    box-shadow: 0px 0px 14px 5px #3dc21b;
+    background:linear-gradient(to bottom, #44c767 5%, #5cbf2a 100%);
+    background-color:#44c767;
+    border-radius:10px;
+    border:1px solid #18ab29;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:24px;
+    padding:13px 47px;
+    text-decoration:none;
+    text-shadow:0px 1px 9px #2f6627;
+    position: absolute;
+    top:65%; 
+    left:45%;
+ 
+}
+.myButton:hover {
+    background:linear-gradient(to bottom, #5cbf2a 5%, #44c767 100%);
+    background-color: #5cbf2a;
+}
+
+
+.myButton2 {
+    box-shadow: 0px 10px 14px -7px  #5E1C7E;
+    background:linear-gradient(to bottom, #7B2DA0 5%, #5E1C7E 100%);
+    background-color:#7B2DA0;
+    border-radius:8px;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:12px;
+    font-weight:bold;
+    padding:6px 26px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #5E1C7E;
+    margin-left: 150px;
+    position: absolute;
+}
+
+.myButton2:hover {
+    background:linear-gradient(to bottom, #5E1C7E 5%, #7B2DA0 100%);
+    background-color:#5E1C7E;
+}
+
+.myButton3 {
+    box-shadow: 3px 4px 0px 0px #5E1C7E;
+    background:linear-gradient(to bottom, #7B2DA0 5%, #5E1C7E 100%);
+    background-color:#7B2DA0;
+    border-radius:5px;
+    border:1px solid #7B2DA0;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:30px;
+    padding:32px 45px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #5E1C7E;
+    margin-left: 60px;
+    position: relative;
+
+}
+ 
+    
+.myButton3:hover {
+    background:linear-gradient(to bottom, #5E1C7E 5%, #7B2DA0 100%);
+    background-color:#5E1C7E;
+ 
+}
+
+
+.myButton4 {
+    box-shadow: 3px 4px 0px 0px #5E1C7E;
+    background:linear-gradient(to bottom, #7B2DA0 5%, #5E1C7E 100%);
+    background-color:#7B2DA0;
+    border-radius:5px;
+    border:1px solid #7B2DA0;
+    display:inline-block;
+    cursor:pointer;
+    color: white;
+    font-family:Arial;
+    font-size:30px;
+    padding:32px 45px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #5E1C7E;
+    margin-left: 60px;
+    position: relative;
+    
+}
+ 
+    
+.myButton4:hover {
+    background:linear-gradient(to bottom, #5E1C7E 5%, #7B2DA0 100%);
+    background-color:#5E1C7E;
+ 
+}
+
+.myButton5 {
+	box-shadow: 0px 10px 14px -7px #276873;
+	background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+	background-color:#599bb3;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:5px 5px;
+	text-decoration:none;
+    text-shadow:0px 1px 0px #3d768a;
+    position: absolute;
+    right: 12px;
+    text-align: center;
+    top: 10px;
+    width: 24px;
+}
+.myButton5:hover {
+	background:linear-gradient(to bottom, #5E1C7E 5%, #7B2DA0 100%);
+    background-color:#5E1C7E;
+}
+
+
+ 
+.modalDialog {
+    position: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0,0,0,0.8);
+    z-index: 99999;
+    opacity:0;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    pointer-events: none;
+    
+}
+.modalDialog:target {
+    opacity:1;
+    pointer-events: auto;
+}
+.modalDialog > div {
+    width: 400px;
+    position: relative;
+    margin: 10% auto;
+    padding: 5px 20px 40px 20px;
+    border-radius: 10px;
+    background: -moz-linear-gradient( #BC83D7, #340C47);
+    background: -webkit-linear-gradient( #BC83D7,#340C47);
+    background: -o-linear-gradient( #BC83D7,#340C47);
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+}
+
+.modalDialog2 {
+    position: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0,0,0,0.8);
+    z-index: 99999;
+    opacity:0;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    pointer-events: none;
+    
+}
+.modalDialog2:target {
+    opacity:1;
+    pointer-events: auto;
+}
+.modalDialog2 > div {
+    width: 400px;
+    position: relative;
+    margin: 5% auto;
+    padding: 5px 20px 40px 20px;
+    border-radius: 10px;
+    background: -moz-linear-gradient( #BC83D7, #340C47);
+    background: -webkit-linear-gradient( #BC83D7,#340C47);
+    background: -o-linear-gradient( #BC83D7,#340C47);
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+}
+.close {
+    background: #606061;
+    color: #FFFFFF;
+    line-height: 25px;
+    position: absolute;
+    right: -12px;
+    text-align: center;
+    top: -10px;
+    width: 24px;
+    text-decoration: none;
+    font-weight: bold;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    border-radius: 12px;
+    -moz-box-shadow: 1px 1px 3px #000;
+    -webkit-box-shadow: 1px 1px 3px #000;
+    box-shadow: 1px 1px 3px #000;
+}
+ 
+.close:hover { background: black; }
+ 
+#t1{
+    text-align: center;
+    font-family: serif;
+    font-weight: bold;
+    color: white;
+
+}
+
+#t2{
+    text-align: center;
+    font-family: serif;
+    color: white;
+    margin-top: 328px;
+
+}
+
+#t3{
+    font-family: 'Courier New';
+    color: black;
+    }
+
+#t4{
+    font-family: 'Courier New';
+    color:white;
+    font-weight: bold;
+ }
+
+ #t5{
+    font-family: 'Courier New';
+    color: white;
+    text-align: center;
+    }
+
